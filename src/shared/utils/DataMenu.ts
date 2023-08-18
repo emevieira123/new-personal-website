@@ -21,7 +21,7 @@ export const DataMenu = [
   },
   {
     id: 5,
-    link: 'contato',
+    link: 'contact',
     title: 'Contato'
   },
 ]

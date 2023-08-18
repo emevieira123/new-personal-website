@@ -1,6 +1,9 @@
 import { About } from '../../../pages/About';
+import { Contact } from '../../../pages/Contact';
 import { Home } from '../../../pages/Home';
+import { Portfolio } from '../../../pages/Portfolio';
 import { Skills } from '../../../pages/Skills';
+import { Footer } from '../Footer';
 
 
 export function Sections() {
@@ -16,10 +19,13 @@ export function Sections() {
           <Skills />
         </section>
         <section id="portfolio">
-          {/* <Portfolio /> */}
+          <Portfolio />
+        </section>
+        <section id="contact">
+          <Contact />
         </section>
         <section id="footer">
-          {/* <Footer /> */}
+          <Footer />
         </section>
       </section>
   );
