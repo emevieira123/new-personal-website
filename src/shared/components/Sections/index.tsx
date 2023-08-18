@@ -1,3 +1,4 @@
+import { About } from '../../../pages/About';
 import { Home } from '../../../pages/Home';
 import { Skills } from '../../../pages/Skills';
 
@@ -9,7 +10,7 @@ export function Sections() {
           <Home />
         </section>
         <section id="about">
-          {/* <About /> */}
+          <About />
         </section>
         <section id="skills">
           <Skills />

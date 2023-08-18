@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerHome = styled.div`
+export const ContainerAbout = styled.div`
   height: 100vh;
   background: #111111;
   padding: 2rem 0;
@@ -21,11 +21,11 @@ export const ContainerText = styled.div`
   height: 21.9rem;
   margin: 4rem 21rem 0 0;
   position: absolute;
-  padding: 2rem;
+  padding: 0.5rem 2rem;
 
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 `;
 
 export const Title = styled.strong`
@@ -36,7 +36,7 @@ export const Title = styled.strong`
 export const Text = styled.span`
   color: #fff;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 1.6rem;
 `;
 
 export const TextGradient = styled.span`
@@ -46,7 +46,7 @@ export const TextGradient = styled.span`
   color: transparent;
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   width: 20rem;
   height: 4rem;
   border: 0;
@@ -55,6 +55,12 @@ export const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
   background: linear-gradient(to right, #08adff, #08fbff);
+  color: #111111;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const ContainerCards = styled.div`
