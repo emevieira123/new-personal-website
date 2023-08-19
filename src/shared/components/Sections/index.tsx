@@ -1,3 +1,4 @@
+import { ToastContainer } from 'react-toastify';
 import { About } from '../../../pages/About';
 import { Contact } from '../../../pages/Contact';
 import { Home } from '../../../pages/Home';
@@ -8,7 +9,8 @@ import { Footer } from '../Footer';
 
 export function Sections() {
   return (
-    <section>
+    <>
+      <section>
         <section id="home">
           <Home />
         </section>
@@ -28,5 +30,7 @@ export function Sections() {
           <Footer />
         </section>
       </section>
+      <ToastContainer />
+    </>
   );
 }
