@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 interface CardProps {
   color?: string;
-  textColor?: string;
+  textcolor?: string;
   title?: string;
   content?: string;
 }
@@ -10,8 +10,8 @@ interface CardProps {
 export function CardHome(props: CardProps) {
   return (
     <CardContainer color={props.color}>
-      <Title textColor={props.textColor}>{props.title}</Title>
-      <Content textColor={props.textColor}>{props.content}</Content>
+      <Title textcolor={props.textcolor}>{props.title}</Title>
+      <Content textcolor={props.textcolor}>{props.content}</Content>
     </CardContainer>
   );
 }
@@ -29,12 +29,12 @@ const CardContainer = styled.div<{color?: string}>`
   gap: 1rem;
 `;
 
-const Title = styled.span<{textColor?: string}>`
-  color: ${(props) => props.textColor};
+const Title = styled.span<{textcolor?: string}>`
+  color: ${(props) => props.textcolor};
   font-size: 1.5rem;
 `;
 
-const Content = styled.span<{textColor?: string}>`
-  color: ${(props) => props.textColor};
+const Content = styled.span<{textcolor?: string}>`
+  color: ${(props) => props.textcolor};
   font-size: 3rem;
 `;

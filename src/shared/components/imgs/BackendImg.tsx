@@ -86,20 +86,20 @@ export function BackendImg(props: SVGProps<SVGSVGElement>) {
       <path d="M719 890H89V886H719V890Z" fill="#45CDFD" />
       <defs>
         <linearGradient id="paint0_linear_510_617" x1="325.758" y1="694.866" x2="376.304" y2="694.866" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#F71D69" />
-          <stop offset="1" stop-color="#F8C648" />
+          <stop stopColor="#F71D69" />
+          <stop offset="1" stopColor="#F8C648" />
         </linearGradient>
         <linearGradient id="paint1_linear_510_617" x1="325.758" y1="725.193" x2="478.839" y2="725.193" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#09AEFF" />
-          <stop offset="1" stop-color="#69E0FB" />
+          <stop stopColor="#09AEFF" />
+          <stop offset="1" stopColor="#69E0FB" />
         </linearGradient>
         <linearGradient id="paint2_linear_510_617" x1="-1173.28" y1="759.854" x2="373.415" y2="759.854" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#4B45BD" />
-          <stop offset="1" stop-color="#58CAEA" />
+          <stop stopColor="#4B45BD" />
+          <stop offset="1" stopColor="#58CAEA" />
         </linearGradient>
         <linearGradient id="paint3_linear_510_617" x1="377.748" y1="759.854" x2="425.405" y2="759.854" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#4B45BD" />
-          <stop offset="1" stop-color="#58CAEA" />
+          <stop stopColor="#4B45BD" />
+          <stop offset="1" stopColor="#58CAEA" />
         </linearGradient>
       </defs>
     </svg>

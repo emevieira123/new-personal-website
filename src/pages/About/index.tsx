@@ -37,7 +37,7 @@ export function About() {
 
       </ContainerImg>
       <ContainerCards>
-        <CardHome title="Anos de experiência" content="3+" color="#08adff" textColor="#FFFFFF" />
+        <CardHome title="Anos de experiência" content="3+" color="#08adff" textcolor="#FFFFFF" />
         <CardHome title="Participação em Projetos" content="5+" color="#08fbff" />
         <CardHome title="Suporte" content="2+" color="#FFFFFF" />
       </ContainerCards>

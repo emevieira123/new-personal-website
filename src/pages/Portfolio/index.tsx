@@ -41,7 +41,7 @@ export function Portfolio() {
                 </Button>
                 <Button
                   color="#111111"
-                  bgColor="linear-gradient(to right, #51ACF9, #6DE7FD)"
+                  bgcolor="linear-gradient(to right, #51ACF9, #6DE7FD)"
                   href={item.linkProject}
                   target="_blank"
                   rel="noreferrer"
@@ -116,9 +116,9 @@ const Text = styled.span`
   color: #888888;
 `;
 
-const Button = styled.a<{ border?: string, bgColor?: string, color?: string }>`
+const Button = styled.a<{ border?: string, bgcolor?: string, color?: string }>`
   border: ${(props) => props.border};
-  background: ${(props) => props.bgColor};
+  background: ${(props) => props.bgcolor};
   color: ${(props) => props.color};
   font-weight: bold;
   border-radius: 5px;

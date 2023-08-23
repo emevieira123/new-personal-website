@@ -29,32 +29,32 @@ export function IconNode(props: SVGProps<SVGSVGElement>) {
       </g>
       <defs>
         <linearGradient id="paint0_linear_510_516" x1="25.6892" y1="14.5572" x2="71.9297" y2="75.3549" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#0FB1FF" />
-          <stop offset="1" stop-color="#69E0FB" />
+          <stop stopColor="#0FB1FF" />
+          <stop offset="1" stopColor="#69E0FB" />
         </linearGradient>
         <linearGradient id="paint1_linear_510_516" x1="132.728" y1="85.6304" x2="74.4992" y2="190.956" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#13B3FF" />
-          <stop offset="1" stop-color="#69E0FB" />
+          <stop stopColor="#13B3FF" />
+          <stop offset="1" stopColor="#69E0FB" />
         </linearGradient>
         <linearGradient id="paint2_linear_510_516" x1="192.669" y1="109.608" x2="235.484" y2="199.52" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#69E0FB" />
-          <stop offset="1" stop-color="#10B1FF" />
+          <stop stopColor="#69E0FB" />
+          <stop offset="1" stopColor="#10B1FF" />
         </linearGradient>
         <linearGradient id="paint3_linear_510_516" x1="208.17" y1="144.414" x2="216.432" y2="161.733" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#69E0FB" />
-          <stop offset="1" stop-color="#10B1FF" />
+          <stop stopColor="#69E0FB" />
+          <stop offset="1" stopColor="#10B1FF" />
         </linearGradient>
         <linearGradient id="paint4_linear_510_516" x1="177.138" y1="19.2865" x2="139.762" y2="95.5336" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#69E0FB" />
-          <stop offset="0.989583" stop-color="#10B1FF" />
+          <stop stopColor="#69E0FB" />
+          <stop offset="0.989583" stopColor="#10B1FF" />
         </linearGradient>
         <linearGradient id="paint5_linear_510_516" x1="132.73" y1="19.6925" x2="188.39" y2="94.1911" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#69E0FB" />
-          <stop offset="1" stop-color="#10B1FF" />
+          <stop stopColor="#69E0FB" />
+          <stop offset="1" stopColor="#10B1FF" />
         </linearGradient>
         <linearGradient id="paint6_linear_510_516" x1="222.083" y1="17.0284" x2="163.089" y2="137.375" gradientUnits="userSpaceOnUse">
-          <stop stop-color="#6AE0FB" />
-          <stop offset="0.9375" stop-color="#10B1FF" />
+          <stop stopColor="#6AE0FB" />
+          <stop offset="0.9375" stopColor="#10B1FF" />
         </linearGradient>
       </defs>
     </svg>
