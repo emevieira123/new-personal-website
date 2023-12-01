@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerContact = styled.div`
-  min-height: 100vh;
+  padding-bottom: 3rem;
   background: #111111;
 
   display: flex;

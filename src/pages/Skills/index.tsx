@@ -37,8 +37,8 @@ export function Skills() {
 }
 
 const ContainerSkill = styled.div`
-  height: 100vh;
   background: #111111;
+  padding-bottom: 3rem;
 `;
 
 const TitlePage = styled.h1`

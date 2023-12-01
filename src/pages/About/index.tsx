@@ -18,8 +18,8 @@ export function About() {
         <HomeImgDeveloper width="1200px" height="500px" />
         <ContainerText>
           <Title>
-          Minha expertise hoje está centrada no
-          desenvolvimento web com {' '}
+            Minha expertise hoje está centrada no
+            desenvolvimento web com {' '}
             <TextGradient>React</TextGradient>
           </Title>
           <Text>
@@ -39,7 +39,7 @@ export function About() {
       <ContainerCards>
         <CardHome title="Anos de experiência" content="3+" color="#08adff" textcolor="#FFFFFF" />
         <CardHome title="Participação em Projetos" content="5+" color="#08fbff" />
-        <CardHome title="Suporte" content="2+" color="#FFFFFF" />
+        <CardHome title="Suporte e Treinamento" content="2+" color="#FFFFFF" />
       </ContainerCards>
     </ContainerAbout>
   )

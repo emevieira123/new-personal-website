@@ -9,15 +9,15 @@ export const ContainerHome = styled.div`
   display: flex;
 
   &::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  /* Gradiente de transparente a escuro */
-  background: linear-gradient(360deg, #111 0%, rgba(17, 17, 17, 0.00) 16.87%);
-}
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* Gradiente de transparente a escuro */
+    background: linear-gradient(360deg, #111 0%, rgba(17, 17, 17, 0) 16.87%);
+  }
 
   &::after {
     content: " ";
@@ -66,7 +66,7 @@ interface TextProps {
 }
 
 export const Text = styled.span<TextProps>`
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: ${(props) => props.fontWeight};
   font-size: ${(props) => props.fontSize};
   margin-bottom: 0.5rem;
