@@ -3,7 +3,6 @@ import { styled } from "styled-components";
 export function Footer() {
   return (
     <ContainerFooter>
-      <img src="/assets/favicon.svg" alt="" />
       <span>© VieiraDevCode - 2023. Todos os Direitos Reservados</span>
     </ContainerFooter>
   );

@@ -12,7 +12,6 @@ export function CardSkill({ icon, text }: CardSkillProps) {
         {icon}
       </i>
       <ContainerText>
-        <main>Nível</main>
         <span>{text}</span>
       </ContainerText>
     </Container>

@@ -1,5 +1,4 @@
 import { ToastContainer } from 'react-toastify';
-import { About } from '../../../pages/About';
 import { Contact } from '../../../pages/Contact';
 import { Home } from '../../../pages/Home';
 import { Portfolio } from '../../../pages/Portfolio';
@@ -13,9 +12,6 @@ export function Sections() {
       <section>
         <section id="home">
           <Home />
-        </section>
-        <section id="about">
-          <About />
         </section>
         <section id="skills">
           <Skills />

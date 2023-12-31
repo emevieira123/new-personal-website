@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerContact = styled.div`
   padding-bottom: 3rem;
   background: #111111;
+  height: 86vh;
 
   display: flex;
 `;

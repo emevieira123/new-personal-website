@@ -1,27 +1,22 @@
 export const DataMenu = [
   {
     id: 1,
-    link: 'home',
-    title: 'Inicio'
+    link: "home",
+    title: "Inicio",
   },
   {
     id: 2,
-    link: 'about',
-    title: 'Sobre Mim'
+    link: "skills",
+    title: "Habilidades",
   },
   {
     id: 3,
-    link: 'skills',
-    title: 'Habilidades'
+    link: "portfolio",
+    title: "Portfólio",
   },
   {
     id: 4,
-    link: 'portfolio',
-    title: 'Portfólio'
+    link: "contact",
+    title: "Contato",
   },
-  {
-    id: 5,
-    link: 'contact',
-    title: 'Contato'
-  },
-]
+];

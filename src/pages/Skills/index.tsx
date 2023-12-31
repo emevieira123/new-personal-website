@@ -39,6 +39,7 @@ export function Skills() {
 const ContainerSkill = styled.div`
   background: #111111;
   padding-bottom: 3rem;
+  height: 95vh;
 `;
 
 const TitlePage = styled.h1`

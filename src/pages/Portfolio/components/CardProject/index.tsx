@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { useModal } from "../../hooks/useModal";
 
 interface CardProjectProps {
   image: string;
@@ -6,17 +7,25 @@ interface CardProjectProps {
   skill: string;
   github: string;
   link: string;
+  description: string;
 }
 
 export function CardProject(props: CardProjectProps) {
+  const { onOpen } = useModal();
+
   return (
     <ContainerProject>
       <div style={{ minHeight: "90%" }}>
-        <ImgProject image={props.image} />
+        <ImgProject onClick={() => onOpen(props.image)}>
+          <img src={props.image} />
+        </ImgProject>
         <ContainerTitleProject>
           <Title>{props.name}</Title>
           <Text>{props.skill}</Text>
         </ContainerTitleProject>
+        <DescriptionContainer>
+          <span>{props.description}</span>
+        </DescriptionContainer>
       </div>
 
       <div style={{ display: 'flex', gap: "1rem" }}>
@@ -45,7 +54,7 @@ export function CardProject(props: CardProjectProps) {
 }
 
 const ContainerProject = styled.div`
-  min-width: 27%;
+  width: 27%;
   height: 32rem;
   padding: 1rem;
   border: 2px solid transparent;
@@ -57,12 +66,18 @@ const ContainerProject = styled.div`
   justify-content: space-between;
 `;
 
-const ImgProject = styled.div<{ image: string }>`
-  width: 100%;
-  height: 60%;
-  background-image: url(${(props) => props.image});
-  /* background-size: cover; */
-  /* background-position: center; */
+const ImgProject = styled.div`
+  height: 18rem;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+  img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
 `;
 
 const ContainerTitleProject = styled.div`
@@ -78,6 +93,14 @@ const Title = styled.strong`
 
 const Text = styled.span`
   color: #888888;
+`;
+
+const DescriptionContainer = styled.div`
+  padding: 0.5rem 0;
+
+  span {
+    color: #333333;
+  }
 `;
 
 const Button = styled.a<{ border?: string, bgcolor?: string, color?: string }>`

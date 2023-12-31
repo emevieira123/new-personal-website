@@ -11,9 +11,9 @@ export function Frontend() {
         <img src="/assets/laptop_front.png" alt="" />
       </ContainerImg>
       <ContainerSkills>
-        <CardSkill icon={<IconJavascript width="7rem" />} text="Intermediário" />
-        <CardSkill icon={<IconTypescript width="7rem" />} text="Intermediário" />
-        <CardSkill icon={<IconReact width="7rem" />} text="Intermediário" />
+        <CardSkill icon={<IconJavascript width="7rem" />} text="Javascript" />
+        <CardSkill icon={<IconTypescript width="7rem" />} text="Typescript" />
+        <CardSkill icon={<IconReact width="7rem" />} text="React" />
       </ContainerSkills>
     </ContainerFrontend>
   );
@@ -44,6 +44,6 @@ export const ContainerSkills = styled.div`
   min-width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-left: 2rem;
   justify-content: center;
 `;

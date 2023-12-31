@@ -2,6 +2,7 @@ import {
   ContainerHome,
   ContainerText,
   ContentContainer,
+  Divider,
   Text,
   TextGradient
 } from "./styles";
@@ -12,14 +13,16 @@ export function Home() {
       <ContentContainer>
         <ContainerText>
           <div>
-            <Text fontWeight="bold" fontSize="2rem">Olá eu sou o</Text>
+            <Text fontWeight="bold" fontSize="2rem">Olá, eu sou o</Text>
             <TextGradient>Emerson Vieira</TextGradient>
-            <Text fontSize="1.25rem">Desenvolvedor Web</Text>
+            <Text fontSize="1.25rem">Desenvolvedor Front-End | React.</Text>
+
+            <Divider />
+
+            <Text fontSize="1rem" margin="0.5rem 0 0 0">Gosto de codificar e dar vida às ideias no navegador.</Text>
+            <Text fontSize="1rem">Desenvolvo soluções atraentes e intuitivas, eu amo programar.</Text>
           </div>
         </ContainerText>
-      </ContentContainer>
-      <ContentContainer justify="end" align="start" padding="5rem 2rem 0 0">
-        <img src="/assets/favicon.svg" alt="" />
       </ContentContainer>
     </ContainerHome>
   );

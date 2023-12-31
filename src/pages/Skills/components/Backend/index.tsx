@@ -12,8 +12,8 @@ export function Backend() {
         <BackendImg width="25rem" height="25rem" />
       </ContainerImg>
       <ContainerSkills>
-      <CardSkill icon={<IconCsharp width="7rem" />} text="Básico" />
-      <CardSkill icon={<IconNode width="7rem" />} text="Básico" />
+        <CardSkill icon={<IconCsharp width="7rem" />} text="CSharp" />
+        <CardSkill icon={<IconNode width="7rem" />} text="NodeJS" />
       </ContainerSkills>
     </ContainerBackend>
   );

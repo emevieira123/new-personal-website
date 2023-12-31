@@ -2,12 +2,8 @@
 import { styled } from "styled-components";
 import { TextGradient } from "../About/styles";
 import { CardProject } from "./components/CardProject";
-
-const dataProject = [
-  { id: 1, name: "Debt Pay", skills: "Front-end & Back-end", img: "/assets/debtpay.png", github: "https://github.com/emevieira123/DebtPay", linkProject: "https://debt-pay.vercel.app/" },
-  { id: 2, name: "Tech Filmes HD", skills: "Front-end", img: "/assets/tech-filmes.png", github: "https://github.com/emevieira123/TechFilmes", linkProject: "https://tech-filmes.vercel.app/" },
-  { id: 3, name: "Sleep Pomodoro", skills: "Front-end", img: "/assets/sleep.png", github: "https://github.com/emevieira123/NLW-04-ReactJS", linkProject: "https://sleep-eight.vercel.app/" },
-]
+import { ModalImagePreview } from "./components/Modal/ModalImagePreview";
+import projetos from "./__mocks__/projetos";
 
 export function Portfolio() {
   return (
@@ -20,7 +16,7 @@ export function Portfolio() {
       </ContainerTitle>
       <ContainerContent>
         {
-          dataProject.map((item: any) => (
+          projetos.map((item: any) => (
             <CardProject
               key={item.key}
               name={item.name}
@@ -28,16 +24,20 @@ export function Portfolio() {
               skill={item.skills}
               github={item.github}
               link={item.linkProject}
+              description={item.description}
             />
           ))
         }
       </ContainerContent>
+
+      <ModalImagePreview />
     </ContainerPortfolio>
   );
 }
 
 const ContainerPortfolio = styled.div`
   background: linear-gradient(180deg, #FFF 0%, #FFF 93.74%, #111 97.05%, #111 100%);
+  height: 100vh;
 `;
 
 const ContainerTitle = styled.div`

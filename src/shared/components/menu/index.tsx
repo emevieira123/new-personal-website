@@ -23,7 +23,6 @@ export function Menu() {
               offset={-70}
               duration={500}
               href='#'
-            // onClick={() => { }}
             >
               {item.title}
             </Link>
@@ -32,7 +31,7 @@ export function Menu() {
       </ContainerItems>
 
       {/* Essa div é necessária para a estilização do menu */}
-      <div style={{ width: '11.4rem'}} />
+      <div style={{ width: '11.4rem' }} />
     </ContainerMenu>
   )
 }

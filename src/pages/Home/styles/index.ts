@@ -63,12 +63,14 @@ export const ContainerText = styled.div`
 interface TextProps {
   fontSize?: string;
   fontWeight?: string;
+  margin?: string;
 }
 
 export const Text = styled.span<TextProps>`
   color: #ffffff;
   font-weight: ${(props) => props.fontWeight};
   font-size: ${(props) => props.fontSize};
+  margin: ${(props) => props.margin};
   margin-bottom: 0.5rem;
 `;
 
@@ -79,4 +81,11 @@ export const TextGradient = styled.span`
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+`;
+
+export const Divider = styled.div`
+  width: 20rem;
+  height: 1px;
+  background: gray;
+  margin: 1rem 0;
 `;
