@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import { Home } from '../pages/Home';
-import { DefaultLayout } from '../shared/layouts/defaultLayout';
-import Projects from '../pages/Projects';
 import Experiencies from '../pages/Experiencies';
-import { path } from './path';
+import Home from '../pages/Home';
+import Projects from '../pages/Projects';
 import Skills from '../pages/Skills';
+import DefaultLayout from '../shared/layouts/defaultLayout';
+import { path } from './path';
 
 export function MainRoutes() {
   return (

@@ -1,7 +1,7 @@
 import { Divider, Flex, Heading, Text } from "@chakra-ui/react";
 import { PageAnimate } from "../../shared/components/PageAnimate";
 
-export function Home() {
+export default function Home() {
   return (
     <PageAnimate>
       <Flex justify="center">
