@@ -4,7 +4,7 @@ import { GoSun, GoMoon } from "react-icons/go";
 import { useNavigate } from "react-router-dom";
 import { menuItems } from "../../utils/menuItems";
 
-export function Menu() {
+export function TopMenu() {
   const { colorMode, toggleColorMode } = useColorMode();
   const navigate = useNavigate();
 
