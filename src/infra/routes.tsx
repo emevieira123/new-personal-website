@@ -4,7 +4,7 @@ import Home from '../pages/Home';
 import Projects from '../pages/Projects';
 import Skills from '../pages/Skills';
 import { path } from './path';
-import { DefaultLayout } from '../shared/layouts/defaultLayout';
+import { DefaultLayout } from '../shared/layouts/DefaultLayout';
 
 export function MainRoutes() {
   return (
