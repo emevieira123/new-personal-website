@@ -3,8 +3,8 @@ import Experiencies from '../pages/Experiencies';
 import Home from '../pages/Home';
 import Projects from '../pages/Projects';
 import Skills from '../pages/Skills';
-import DefaultLayout from '../shared/layouts/defaultLayout';
 import { path } from './path';
+import { DefaultLayout } from '../shared/layouts/defaultLayout';
 
 export function MainRoutes() {
   return (
