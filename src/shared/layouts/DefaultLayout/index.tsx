@@ -1,11 +1,14 @@
 import { Outlet } from "react-router-dom";
-import { Menu } from "../../components/menu";
+import { Menu } from "../../components/Menu";
+import { Footer } from "../../components/Footer";
+import { Box } from "@chakra-ui/react";
 
 export function DefaultLayout() {
   return (
-    <div>
+    <Box minH="100vh">
       <Menu />
       <Outlet />
-    </div>
+      <Footer />
+    </Box>
   )
 }
