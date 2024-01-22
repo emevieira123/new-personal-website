@@ -25,7 +25,7 @@ export function CardExperience({ data }: CardExperienceProps) {
   const { colorMode } = useColorMode();
 
   return (
-    <Card>
+    <Card p="0 1rem">
       <CardHeader fontWeight="bold" pb="0" pt="0.5rem">
         {data.cargo.toLocaleUpperCase()}
       </CardHeader>

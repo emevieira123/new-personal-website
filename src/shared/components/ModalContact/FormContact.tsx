@@ -31,7 +31,7 @@ export function FormContact() {
           />
         </Flex>
 
-        <Divider my="1rem" />
+        <Divider mb="1rem" />
 
         <Box>
           <FormLabel fontWeight="bold">Explique sua ideia</FormLabel>

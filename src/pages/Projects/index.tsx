@@ -10,7 +10,7 @@ export default function Projects() {
   return (
     <PageAnimate>
       <Flex justify="center">
-        <Flex h="100%" w="80%" flexDirection="column" padding="1rem 2rem">
+        <Flex h="100%" w="80%" flexDirection="column" padding="1rem 0">
           <Heading>Projetos</Heading>
 
           <Grid

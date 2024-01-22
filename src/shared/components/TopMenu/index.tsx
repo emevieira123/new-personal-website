@@ -19,7 +19,6 @@ export function TopMenu() {
         h="4.5rem"
         align="center"
         justify="space-between"
-        padding="0 2rem"
       >
         <Flex align="center" gap={4}>
           <IconButton

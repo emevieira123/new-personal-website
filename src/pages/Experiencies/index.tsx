@@ -11,7 +11,7 @@ export default function Experiencies() {
         h="100%" 
         w="80%" 
         flexDirection="column" 
-        padding="1rem 2rem"
+        p="1rem 0"
         gap={4}
         >
           <Heading>Experiências</Heading>
