@@ -2,7 +2,7 @@ export default [
   {
     projectId: "ce334064-ba6b-4fdb-921d-3fd375158486",
     name: "Debtpay 2.0",
-    stacks: "React | ChakraUI | Zustand | React Query | NodeJS",
+    stacks: "React Vite | ChakraUI | Zustand | React Query | NodeJS",
     imgURL: "/assets/debtpay2.png",
     projectLink: "https://debtpay-new.vercel.app/",
   },
@@ -16,7 +16,7 @@ export default [
   {
     projectId: "ef17dbfe-9ebb-4b7b-ac3f-947f6f421d06",
     name: "Taskban",
-    stacks: "React | ChakraUI | Zustand | Dnd-Kit",
+    stacks: "React Vite | ChakraUI | Zustand | Dnd-Kit",
     imgURL: "/assets/taskban.png",
     projectLink: "https://taskban-xi.vercel.app/",
   },

@@ -32,6 +32,7 @@ export function CardProject({ data }: CardProjectProps) {
         >
           <Img
             src={data.imgURL}
+            w="100%"
             h="17rem"
             borderRadius="0 10px 0 10px"
             cursor="pointer"
